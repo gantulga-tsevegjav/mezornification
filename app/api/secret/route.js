@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { attachSession, getOrCreateSession, pairForSession } from "../../../../lib/ctf";
+import { attachSession, getOrCreateSession, pairForSession } from "../../../lib/ctf";
 
 export const runtime = "nodejs";
 
